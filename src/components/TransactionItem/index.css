@@ -1,0 +1,10 @@
+.listItem {
+  border-top: none;
+}
+.delete-btn {
+  background-color: transparent;
+  border: none;
+}
+.delete-img {
+  height: 15px;
+}

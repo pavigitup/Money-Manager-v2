@@ -1,0 +1,138 @@
+/* Write your CSS here */
+.bg-con {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 10%;
+  width: 100%;
+}
+.name-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 0px 50px 50px 50px;
+  background-image: url(https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png);
+  width: 100%;
+  padding: 5%;
+}
+.high-light {
+  color: #0b69ff;
+}
+.case-cards {
+  width: 100%;
+  margin-top: 10%;
+  padding: 2%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.case-card-balance {
+  display: flex;
+  padding: 2%;
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+  border-radius: 10px;
+  font-size: 10px;
+  color: #334155;
+}
+.case-card-income {
+  display: flex;
+  padding: 2%;
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+  border-radius: 10px;
+  font-size: 10px;
+  color: #334155;
+}
+.case-card-expenses {
+  display: flex;
+  padding: 2%;
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+  border-radius: 10px;
+  font-size: 10px;
+  color: #334155;
+}
+.img-con {
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-icon {
+  width: 80%;
+}
+.your-case {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+}
+p {
+  padding: 0px;
+  margin: 0px;
+  font-size: 15px;
+}
+.form-con {
+  border-radius: 5%;
+  padding: 5%;
+  border: 1px solid #7e858e;
+  margin-top: 10%;
+}
+.title-con {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5%;
+}
+.amount-con {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5%;
+}
+.type-con {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5%;
+}
+.transaction-con {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.history-con {
+  border-radius: 5%;
+  padding: 5%;
+  border: 1px solid #7e858e;
+  margin-top: 10%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+  max-width: 500px;
+  padding: 0px;
+}
+.list-head {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border: 1px solid #334155;
+  padding: 5px 90px 10px 10px;
+  margin: 0px;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border: 1px solid #334155;
+  padding: 5px 10px;
+  margin: 0px;
+}
